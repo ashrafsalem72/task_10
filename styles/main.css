@@ -1,0 +1,145 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.sec-one {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("../images/sky.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    cursor: pointer;
+}
+
+.sec-one .t-bar {
+    width: 100vw;
+    background-color: white;
+    padding: 10px;
+}
+
+.sec-one .t-bar td:first-of-type {
+    color: #c14242;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: capitalize;
+    text-indent: 10vw;
+    width: 70%;
+}
+
+.sec-one .t-bar .td-link {
+    text-align: center;
+    word-spacing: 1vw;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+
+.sec-one .t-bar .td-link a:first-of-type {
+    color: #c14242;
+}
+
+
+.sec-one div {
+    position: absolute;
+    left: 10vw;
+    top: 40vh;
+    width: 40vw;
+}
+
+.sec-one div h2 {
+    color: #fff;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.sec-one div h2::first-letter {
+    color: #c14242;
+}
+
+.sec-one div p {
+    padding-top: 6%;
+    padding-left: 10%;
+    color: #fff;
+}
+
+.sec-two {
+    text-align: center;
+    min-height: 100vh;
+}
+
+.sec-two h2 {
+    margin-bottom: 0;
+    color: #c14242;
+    font-family: cairo;
+}
+
+.sec-two p {
+    margin-top: 0;
+}
+
+.sec-two .color {
+    width: 90vw;
+    height: 15vh;
+    margin: auto;
+    margin-bottom: 5vh;
+}
+
+.sec-two .linear {
+    border-radius: 10px;
+    background: linear-gradient(#fff, #c14242 75%);
+}
+
+.sec-two .circular {
+    background: radial-gradient(#fff, #c14242);
+    background-size: cover;
+    border-radius: 10px 0 10px 0;
+}
+
+.sec-two .conic {
+    background: conic-gradient(#fff, #c14242 45%);
+    background-size: cover;
+    border-radius: 0 20px 0 20px;
+}
+
+.sec-two .div-img {
+    width: 100vw;
+}
+
+.div-img img {
+    width: 25vw;
+    height: 25vw;
+    margin: 0 3vw;
+}
+
+.black {
+    filter: grayscale(1);
+}
+
+.blur {
+    filter: blur(2px);
+}
+
+.clear {
+    filter: contrast(10px);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 90vw;
+    padding: 1%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+footer span {
+    color: #c14242;
+    font-style: italic;
+}
